@@ -1,0 +1,30 @@
+# UiPath temporary and local files
+.local/
+.tmh/
+~*.xaml
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+
+# Generated files and applicant data
+Input/*
+Processed/*
+Duplicate/*
+Failed/*
+Output/*
+
+# Preserve folder structure
+!Input/.gitkeep
+!Processed/.gitkeep
+!Duplicate/.gitkeep
+!Failed/.gitkeep
+!Output/.gitkeep
+
+# Secrets
+.env
+.env.*
+*.pfx
+*.pem
+*.key

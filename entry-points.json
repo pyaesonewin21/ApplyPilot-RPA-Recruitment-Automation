@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e04ac11f-f753-4f21-b47d-ea1a00003218",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_BaseFolderPath": {
+            "type": "string"
+          },
+          "in_UnprocessedFolderName": {
+            "type": "string"
+          },
+          "in_ProcessedFolderName": {
+            "type": "string"
+          },
+          "in_DuplicateFolderName": {
+            "type": "string"
+          },
+          "in_FailedFolderName": {
+            "type": "string"
+          },
+          "in_OutputFolderName": {
+            "type": "string"
+          },
+          "in_HighPriorityThreshold": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_MediumPriorityThreshold": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_PythonExecutablePath": {
+            "type": "string"
+          },
+          "in_MySqlConnectionString": {
+            "type": "string"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}
